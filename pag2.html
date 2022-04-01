@@ -7,30 +7,28 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="pag2style.css">
     <title>My Little Pet</title>
   </head>
   <body>
-    <nav class="navbar col-12 position-fixed navbar-expand-lg navbar-dark bg-dark" style="z-index: 999;">
+    <nav class="navbar col-12 position-fixed navbar-expand-lg navbar-dark" style="background-color: blueviolet;   z-index: 999;">
         <div class="container-fluid col-11 m-auto">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="/index.html">My Little Pet</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="/pag2.html">Topo</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="#produtos">Produto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#quemsomos">Quem Somos</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
+              
             </ul>
           </div>
         </div>
@@ -39,104 +37,133 @@
         
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="/assets/pet-carrosel.jpg" class="d-block w-100" alt="...">
+            <img src="/assets/banner.png" class="d-block w-100" alt="...">
           </div>          
+        </div>    
+    </div>
+    
+    <h2 class="text-center">Produtos</h2>
+      <div id="produtos" class="row row-cols-1 row-cols-md-3 g-4 col-11 m-auto">
+        <div class="col">
+            
+          <div class="card">
+            <img src="/assets/card01.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pode dar banho no pet todos os dias?</h5>
+              <p class="card-text">A frequência de banhos ideal de acordo com a pelagem
+
+                Cães de pelo curto...</p>
+           <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Veja Mais
+                </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
+      </div>
+    </div>
+  </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/assets/card02.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Banho e Tosa Agende já</h5>
+              <p class="card-text">💦Banho e Tosa 🐶
+                Agende já um horário para seu cão aqui em nosso petshop. Entre em contato pelo (82) 99955-9923</p>
+                <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Veja Mais
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/assets/card03.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Promoção</h5>
+              <p class="card-text">Sexta e Sábado, hidratação gratis. Os pacotes de banho são vendidos somente nas lojas físicas.</p>
+                <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Veja Mais
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="col-11 m-auto" >
+          <h2 id="quemsomos" class="text-center" >Quem Somos</h2>
+          <p class="text-center">Sabemos que cada laço é único. Fonte de alegria, evolução, bem-estar. Temos experiência e oferecemos espaços, produtos e serviços – e tudo mais que for preciso – para que a relação entre pets e suas famílias seja melhor a cada dia. Essa é nossa razão de ser.
+
+            Somos apaixonados por pets! Essa não é apenas uma expressão inserida em nossa missão como empresa, mas uma realidade vivenciada todos os dias em nossas atitudes, nas lojas e em todos os nossos pontos de contato.
+            
+            Trabalhamos para que você e seus pets tenham a melhor experiência em nossas lojas, seja através dos serviços de estética e veterinária ou pela variedade de produtos espalhados nos mais diversos mundos: cães, gatos, peixes, aves, roedores, répteis. Ah, mantemos nossas orelhas em pé para saber das novidades do mundo pet e levá-las até você.
+            
+            Conveniência é com a gente! Tudo é preparado e organizado para você encontrar facilmente o que procura, e o melhor: a qualquer hora e no lugar que preferir.
+            
+            Sabemos que cuidar de nossos bichinhos é um prazer: selecionar a melhor ração, buscar mimos novos, levá-los para um banho. O que importa é ver que eles estão bem.
+            
+            Muitas vezes, sabemos que seu tempo é curto, mas queremos que você aproveite cada segundo que passar conosco! Para isso, a gente trata todos os pets com muita dedicação e respeito e trabalha a todo instante para que nossas lojas, produtos e serviços estejam à altura de tanto amor e cuidado.
+            
+            Convidamos você a dar um passeio em nossas lojas, se divertir, trocar ideias, histórias, sentimentos, criar laços, sorrir com a gente. Isso é o que fazemos, e esse é o nosso jeito.</p>
+      </div>
+      <hr>
+      <h2 class="text-center">Contato</h2>
+      <div id="contato" class="col-11 m-auto">          
+          <div class="m-auto" style="width: 150px;">
+            <a href="#">
+            <i class="fa-brands fa-whatsapp" style="font-size: 150px; color: green;"></i>
+            </a>
+          </div>
       </div>
 
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
+      <footer style="background-color: blueviolet;" class="page-footer font-small blue p-5">
+          <div class="text-center">
+              <a href="#">©℗®™ 2022 copyright: Trabalho Front end Lab 4</a>
           </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
+      </footer>
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</body>
 </html>
